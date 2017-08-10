@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+h1{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 60px;
+  
+}
+body{
+  text-align: center;
+}
+.button{
+  width:200px;
+  height: 200px;
+  align-items: center;
+}
+.image {
+  background-image:url(mem1.jpg);
+}
