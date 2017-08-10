@@ -10,10 +10,10 @@
   color: white;
 }
 a:link {
-    color: yellow;
+    color: black;
 }
 a:visited {
-    color: purple;
+    color: black;
 }
 a:hover {
     color: white;
@@ -24,11 +24,10 @@ a:active {
 }
 
 h1 {
-  color:
-rgb(255, 245, 234)
-;
+  color: white;
+text-align:center;
   font-size: 50px;
-  border-bottom: 7px solid lightgreen;
+  border-bottom: 7px solid green;
   font-family: 'Bitter', serif;
 }
 body {
@@ -92,7 +91,7 @@ body {
   margin-right: 130px;
     font-family: 'Acme', sans-serif;
     font-size: 30px;
-    background-color: rgba(14, 28, 20, 0.8);
+    background-color: rgba(14, 28, 20, 0.5);
   border: 30px solid white;
   border-radius: 10px;
   border-color: rgba(193, 200, 222, 0);
