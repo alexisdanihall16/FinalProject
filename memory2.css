@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
 h1{
-  font-family: 'Cinzel', serif;
+  font-family: 'Poiret One', cursive;
   text-align: center;
   font-size: 60px;
-  
+
 }
 body{
   text-align: center;
