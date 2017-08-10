@@ -11,10 +11,10 @@ function memory(id){
   numFlipped++;
   if (numFlipped==2){
     if (innerText!=document.getElementById(id+"Div").innerHTML){
-      setTimeout(hideDiv, 5000, id);
+      setTimeout(hideDiv, 4000, id);
 
     } else {
-      setTimeout(hideButton, 5000, id);
+      setTimeout(hideButton, 4000, id);
     }
     numFlipped=0;
 }
