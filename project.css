@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Acme');
-@import url('https://fonts.googleapis.com/css?family=Acme|Libre+Franklin');
-@import url('https://fonts.googleapis.com/css?family=Caveat|Kalam|Nothing+You+Could+Do');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 @import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
+@import url('https://fonts.googleapis.com/css?family=Fauna+One');
 .tabies {
-  font-size: 30px;
+  font-size: 25px;
    border-spacing: 35px;
-  font-family: 'Caveat', cursive;
+   font-family: 'Fauna One', serif;
   float: right;
   color: white;
 }
@@ -25,10 +28,11 @@ a:active {
 
 h1 {
   color: white;
-text-align:center;
+  text-align: center;
   font-size: 50px;
   border-bottom: 7px solid green;
-  font-family: 'Bitter', serif;
+font-family: 'Cinzel', serif;
+  padding-left: 200px;
 }
 body {
   background-image: url(fall.jpg);
@@ -36,8 +40,8 @@ body {
 .volunteer {
   font-size: 30px;
   float: right;
-       padding-right: 170px;
-    font-family: 'Acme', sans-serif;
+       padding-right: 50px;
+  font-family: 'Sorts Mill Goudy', serif;
 }
 .volunteertable{
   float: left;
@@ -46,13 +50,13 @@ body {
     border-width: 4px;
   border-style: solid;
   border-color: rgba(193, 200, 222, 1);
-  background-color: rgba(14, 30, 25, 0.8);
+  background-color: rgba(14, 30, 25, 0.6);
   border-radius: 7px;
     /* padding-top: 10px; */
      padding-right: 30px;
-     padding-bottom: 50px;
+     padding-bottom: 20px;
      padding-left: 30px;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif;
     background-image: url()
 
 }
@@ -60,12 +64,13 @@ body {
   color: white;
   font-size: 30px;
   float: left;
-         font-family: 'Acme', sans-serif;
+         font-family: 'Gentium Basic', serif;
          border-width: 4px;
        border-style: solid;
        border-color: green;
        background-color: green;
        border-radius: 3px;
+      margin-top: 60px;
 }
 
 .aboutus {
@@ -75,23 +80,23 @@ body {
        padding-right: 170px;
        padding-left: 20px;
        padding-top: 30px;
-         font-family: 'Acme', sans-serif;
+         font-family: 'Gentium Basic', serif;
          padding-bottom: 20px;
        border-style: solid;
        border-color: white;
        background-color: white;
-        margin: 0 0 100px 0;
+        margin: 0 0 130px 0;
 
 }
 .intro  {
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 50px;
   margin-left: 130px;
   margin-right: 130px;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Old Standard TT', serif;
     font-size: 30px;
-    background-color: rgba(14, 28, 20, 0.5);
+    background-color: rgba(255, 255, 255,.6);
   border: 30px solid white;
   border-radius: 10px;
   border-color: rgba(193, 200, 222, 0);
@@ -113,6 +118,7 @@ body {font-family: Verdana,sans-serif;}
   padding-top: 10px;
   margin: auto;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 /* Caption text */
@@ -124,7 +130,7 @@ body {font-family: Verdana,sans-serif;}
   padding: 1px 1px 5px 5px;
   bottom: 1px;
   width: 100%;
-  font-family: 'Acme', sans-serif;
+  =font-family: 'Oleo Script', cursive;
 }
 
 /* Number text (1/3 etc) */
@@ -182,4 +188,7 @@ body {font-family: Verdana,sans-serif;}
   border-color: white;
   border-width: 13px;
   border-style: solid;
+}
+.move{
+  padding-top: 10px;
 }
