@@ -11,6 +11,12 @@
    font-family: 'Fauna One', serif;
   float: right;
   color: white;
+  position: relative;
+      top: 40px;
+      bottom: 40px;
+      right: 40px;
+      left: 10px;
+
 }
 a:link {
     color: black;
